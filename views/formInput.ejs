@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Find Activity</title>
+</head>
+
+<body>
+
+    <div class="container-form">
+        <div class="box-form" id="heading">
+            <h1>Lets Find Activity</h1>
+        </div>
+        <div class="box-form">
+            <form action="/" method="post">
+                <label class="title-input" for="participants">Participants</label>
+                <input class="input-form" type="text" name="participants" autocomplete="off">
+
+                <label class="title-input" for="typeActivity">Type Activity</label>
+                <input class="input-form" list="type" name="typeActivity" autocomplete="off">
+                <datalist id="type">
+                    <option value="education">
+                    <option value="recreational">
+                    <option value="social">
+                    <option value="diy">
+                    <option value="charity">
+                    <option value="cooking">
+                    <option value="relaxation">
+                    <option value="music">
+                    <option value="busywork">
+                </datalist>
+
+                <input class="btn-form" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
